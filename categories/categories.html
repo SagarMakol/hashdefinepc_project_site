@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Categories</title>
+
+  <!-- fonts -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- bootstrap     -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/5fd55fc15c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="common.css" />
+  <link rel="stylesheet" href="categories.css" />
+</head>
+
+<body>
+  <header class="top-home">PC components at best prices!</header>
+
+  <!-- navigation -->
+
+  <section class="home">
+    <nav class="navbar navbar-expand-lg navbar-light navigation-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/main/index.html" style="color: white">
+          <i class="fas fa-desktop icon"></i>HashDefine PC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          style="background-color: #c7ffd8">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 itemlist">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/main/index.html" style="color: white">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/categories.html" style="color: white">All Categories</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="color: white">
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #c7ffd8">
+                <li><a class="dropdown-item" href="/cpu/cpu.html">Processor/CPU</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="/motherboard/motherboard.html">Motherboard</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/gpu/gpu.html">Graphic Card/GPU</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="/memory/memory.html">Memory</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/psu/psu.html">Power Supply/PSU</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/cabinet/cabinet.html">Cabinet</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section class="heading-text">
+    <div class="heading-product">
+      <h2 class="heading-product-text">Product Categories</h2>
+      <div class="icon-down">
+        <a href="#products"><i class="fas fa-arrow-down" style="color: #161d6f;"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col cpu">
+          <div class="card">
+            <div id="carousel-1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="/categories/images/cpu/amd.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/categories/images/cpu/intel.jpg" class="d-block w-100 " alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Processor/CPU</h5>
+              <p class="card-text">
+                Includes Intel Core and AMD Ryzen Series Processors
+              </p>
+              <a href="/cpu/cpu.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col gpu">
+          <div class="card">
+            <div id="carousel-2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="/categories/images/gpu/nvidia.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/categories/images/gpu/msi-2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/categories/images/gpu/asus-2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Graphic Cards/GPU</h5>
+              <p class="card-text">
+                Includes latest Nvidia RTX 30 Series and AMD RX Series GPUs
+              </p>
+              <a href="/gpu/gpu.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col memory">
+          <div class="card">
+            <div id="carousel-3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="/categories/images/memory/hx-keyfeatures-memory-fury-ddr4-4-lg-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/categories/images/memory/Vengeance_LPX_DDR4_BOX.webp" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Memory/RAM</h5>
+              <p class="card-text">
+                Includes memory modules from all major vendors like HyperX, Corsair and G.SKill
+              </p>
+              <a href="/memory/memory.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col motherboard">
+          <div class="card">
+            <div id="carousel-4" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="/categories/images/motherboard/quvp7DLVNzPDn8v4ZTMUPC.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/categories/images/motherboard/motherboards-blogroll-1-1525113855554.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Motherboards</h5>
+              <p class="card-text">
+                Includes motherboards capable to run all latest CPUs, offering from Gigabyte, Asus and more
+              </p>
+              <a href="/motherboard/motherboard.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col psu">
+          <div class="card">
+            <div id="carousel-5" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="/categories/images/psu/1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/categories/images/psu/81+xV0659nL._AC_SL1500_.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Power Supply Unit/PSU</h5>
+              <p class="card-text">
+                Power supplies capable of running your beast PC, offering by respected brands, Corsair and Coolermaster
+              </p>
+              <a href="/psu/psu.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col cabinet">
+          <div class="card">
+            <div id="carousel-6" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="/categories/images/cabinet/cooler-master-cabinet-500x500.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/categories/images/cabinet/3.webp" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-6" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-6" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Cabinet</h5>
+              <p class="card-text">
+                From Mid-Tower to Super-Towers, we have them all, from brands like NZXT, Antec and more
+              </p>
+              <a href="/cabinet/cabinet.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="justify-content-center white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2021 HashDefine PC</p>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

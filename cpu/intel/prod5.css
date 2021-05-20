@@ -1,0 +1,47 @@
+body {
+  font-family: "Montserrat";
+}
+#footer {
+  text-align: center;
+  background-color: #98ded9;
+  height: 10rem;
+  padding-top: 2.5rem;
+}
+.social-icon {
+  margin: 20px 10px;
+  text-align: center;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #161d6f;
+  color: #fff;
+}
+.icon {
+  padding: 1rem;
+}
+.main {
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.button-price {
+  margin: 1rem 0;
+} 
+.info {
+  margin: 1rem auto;
+}
+.image-container {
+  margin: 0 auto;
+}
+.text-container {
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .img-thumbnail {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+.xeon-type {
+  width: 20rem;
+  height: 15rem;
+  
+}

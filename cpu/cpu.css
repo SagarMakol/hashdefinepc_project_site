@@ -1,0 +1,55 @@
+body {
+    font-family: "Montserrat";
+}
+.heading-cpu {
+    height: 20rem;
+    width: 100%;
+    background-color: #98ded9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-cpu-text {
+    font-size: 5rem;
+    color: #161d6f;
+}
+.cpus {
+    background-color: #f6f6f6;
+}
+.cpu-card {
+    margin: 1.5rem ;
+    max-width: 18rem;
+}
+#footer {
+    text-align: center;
+    background-color: #98ded9;
+    height: 10rem;
+    padding-top: 2.5rem;
+}
+.social-icon {
+    margin: 20px 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #161d6f;
+    color: #fff;
+  }
+  .icon {
+    padding: 1rem;
+} 
+.card-img-top {
+  height: 10rem;
+  width: 100%;
+}

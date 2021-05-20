@@ -1,0 +1,52 @@
+body {
+    font-family: "Montserrat";
+}
+.heading-product {
+    height: 55.5rem;
+    width: 100%;
+    background-color: #98ded9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-product-text {
+    font-size: 5rem;
+    color: #161d6f;
+}
+.icon-down {
+    font-size: 5rem;
+    color: #161d6f;
+    position: absolute;
+    top: 54.5rem;
+}
+.carousel-item img {
+    height: 25rem;
+    justify-content: center;
+}
+#products {
+    padding-top: 3rem;
+}
+#footer {
+    text-align: center;
+    background-color: #98ded9;
+    height: 10rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+}
+.social-icon {
+    margin: 20px 10px;
+    text-align: center;
+  }
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    } 
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        }
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #161d6f;
+    color: #fff;
+}
