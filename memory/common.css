@@ -1,0 +1,12 @@
+body {
+    font-family: "Montserrat";
+}
+.top-home {
+    padding: 0px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.home {
+    background-color: #161d6f;
+    color: #fff;
+}
