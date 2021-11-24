@@ -1,0 +1,109 @@
+body {
+    font-family: "Montserrat";
+}
+.top-home {
+    padding: 0px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.home {
+    background-color: #161d6f;
+    color: #fff;
+}
+.icon {
+    padding: 1rem;
+} 
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
+.offer-image {
+    width: 100%;
+    max-height: 32rem ;
+}
+.offer-company {
+    width: 100%;
+}
+.offers {
+    padding-top: 2rem;
+    background-color: #98ded9;
+    height: 31rem;
+}
+.card-img-top {
+    height: 262px;
+    width: 262px;
+    margin-top: 1rem;
+}
+.best-card {
+    margin: 1.5rem ;
+    max-width: 18rem;
+}
+.card-body {
+    margin-top: 1rem;
+}
+.bestselling-heading {
+    padding: 2rem;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+.bestselling {
+    background-color: #f6f6f6;
+}
+.deal-company {
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+}
+.company-deals-1 {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+    max-height: 12rem;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #161d6f;
+    font-size: 15px;
+}
+.company-deals-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+    max-height: 12rem;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #161d6f;
+    font-size: 15px;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #161d6f;
+    color: #fff;
+}
+.social-icon {
+    margin: 20px 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+#footer {
+    text-align: center;
+    background-color: #98ded9;
+    height: 10rem;
+    padding-top: 2.5rem;
+}
